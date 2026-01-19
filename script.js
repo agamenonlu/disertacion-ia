@@ -61,7 +61,7 @@ La teva tasca és:
 
     try {
         const response = await fetch(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro:generateContent?key=AIzaSyBp6ZaopjxSXnslYxv_qsAL07T-0QlrO0U",
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBp6ZaopjxSXnslYxv_qsAL07T-0QlrO0U",
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
