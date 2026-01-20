@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-const btnFeedback = document.getElementById("btn-feedback");
+  const btnFeedback = document.getElementById("btn-feedback");
   const textoAlumno = document.getElementById("texto-alumno");
   const respuestaDiv = document.getElementById("respuesta-ia");
 
@@ -49,4 +49,3 @@ const btnFeedback = document.getElementById("btn-feedback");
     });
   }
 });
-
